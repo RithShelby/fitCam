@@ -14,12 +14,12 @@ export default function Home() {
           </div>
           <div className="flex flex-1 items-center justify-end space-x-4">
             <nav className="flex items-center space-x-2">
-              <Link href="/login">
+              <Link href="/auth/login">
                 <Button variant="ghost" size="sm">
                   Login
                 </Button>
               </Link>
-              <Link href="/signup">
+              <Link href="/auth/signup">
                 <Button size="sm">Sign Up</Button>
               </Link>
             </nav>
@@ -40,13 +40,13 @@ export default function Home() {
                 </p>
               </div>
               <div className="space-x-4">
-                <Link href="/signup">
+                <Link href="/auth/signup">
                   <Button className="px-8">
                     Get Started
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </Link>
-                <Link href="/login">
+                <Link href="/auth/login">
                   <Button variant="outline" className="px-8">
                     Login
                   </Button>
